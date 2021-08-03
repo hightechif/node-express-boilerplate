@@ -1,6 +1,6 @@
-// catch 404 and forward to error handler
 var createError = require('http-errors');
 
+// catch 404 and forward to error handler
 const notFoundHandler = (req, res, next) => {
     next(createError(404));
 }

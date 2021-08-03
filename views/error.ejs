@@ -1,3 +1,6 @@
+<% if (error.status === 404) { %>
+    <img src="images/undraw_page_not_found_su7k.svg" alt="404 Not Found" width="300" height="200">
+<% } %>
 <h1><%= message %></h1>
 <h2><%= error.status %></h2>
 <pre><%= error.stack %></pre>
